@@ -1,0 +1,1 @@
+!editcom !cursed peepoTalk $(eval $(urlfetch json https://pastebin.com/raw/htWUA1F3); zalgo(`$(query)`).substring(0, 400);)

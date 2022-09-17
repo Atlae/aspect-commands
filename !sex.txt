@@ -1,0 +1,1 @@
+!editcom !sex $(eval a=["yes","no"]; a[(Math.random() > 0.10) ? 1 : 0];)

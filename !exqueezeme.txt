@@ -1,0 +1,1 @@
+!editcom !exqueezeme $(user) $(eval a = ["FeelsStrongMan Clap YOU'RE EXQUEEZED FeelsStrongMan Clap YOU'RE EXQUEEZED FeelsStrongMan Clap YOU'RE EXQUEEZED FeelsStrongMan Clap YOU'RE EXQUEEZED FeelsStrongMan Clap YOU'RE EXQUEEZED", "Madge NOT EXQUEEZED Madge NOT EXQUEEZED Madge NOT EXQUEEZED Madge NOT EXQUEEZED Madge NOT EXQUEEZED"]; a[Math.floor(Math.random() * 2)])
