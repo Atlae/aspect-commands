@@ -2,7 +2,7 @@
 
 ## Authorship
 
-All commands featured in this repository were written (or mostly written) by me ([atlae99](https://twitch.tv/atlae99) on Twitch). I took inspiration from other codebases (properly attributed in the code) and bounced ideas off my fellow moderator Onteia ([yeyroy](https://github.com/yeyroy) on GitHub). The commands that Onteia wrote are currently not in this repository.
+All commands featured in this repository were written (or mostly written) by me ([atlae99](https://twitch.tv/atlae99) on Twitch). I took inspiration from other codebases (properly attributed in the code) and bounced ideas off my fellow moderator Onteia ([yeyroy](https://github.com/yeyroy) on GitHub). The commands that Onteia wrote are currently not in this repository with the exception of the wingdings command.
 
 [Nightbot Documentation](https://docs.nightbot.tv/)
 
