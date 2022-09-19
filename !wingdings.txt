@@ -1,1 +1,1 @@
-!editcom !wingdings @$(user) $(eval $(urlfetch json https://pastebin.com/raw/GQ1vcwyJ); userin=`$(query)`; out=""; for(var i=0;i<userin.length;i++){ out+=toWing(userin[i]); } out.substring(0,400); )
+!editcom !wingdings @$(user) $(eval $(urlfetch json https://pastebin.com/raw/GQ1vcwyJ); userin=decodeURIComponent("$(querystring)"); out=""; for(var i=0;i<userin.length;i++){ out+=toWing(userin[i]); } (out.length > 0) ? out.substring(0,400) : " "; )

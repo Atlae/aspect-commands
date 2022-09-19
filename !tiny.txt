@@ -1,1 +1,1 @@
-!editcom !tiny ppL $(eval $(urlfetch json https://pastebin.com/raw/Qgkc0QcP); tiny(`$(query)`).substring(0, 400);)
+!editcom !tiny ppL $(eval $(urlfetch json https://pastebin.com/raw/Qgkc0QcP); a=tiny(decodeURIComponent("$(querystring)")).substring(0, 400); (a.length > 0) ? a : " ")

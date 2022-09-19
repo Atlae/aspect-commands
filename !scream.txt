@@ -1,1 +1,1 @@
-!editcom !scream /me Pepega 📣 $(eval `$(query)`.toUpperCase().substring(0, 400))
+!editcom !scream /me Pepega 📣 $(eval a=decodeURIComponent("$(querystring)").toUpperCase().substring(0, 400); (a.length > 0) ? a : " ")

@@ -1,1 +1,1 @@
-!editcom !flip 🙃 $(eval $(urlfetch json https://pastebin.com/raw/drW4EDr3); flip(`$(query)`).substring(0, 400);)
+!editcom !flip 🙃 $(eval $(urlfetch json https://pastebin.com/raw/drW4EDr3); a=flip(decodeURIComponent("$(querystring)")).substring(0, 400); (a.length > 0) ? a : " ")
