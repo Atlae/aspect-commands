@@ -1,0 +1,1 @@
+!editcom !sarc @$(user) $(eval input=decodeURIComponent("$(querystring)"); s=""; count=0; for(const i of input){ if(count%2==0){ s+=i.toUpperCase(); }else{ s+=i.toLowerCase(); } count++; } (s.length > 0) ? s.substring(0,400) : " "; )
