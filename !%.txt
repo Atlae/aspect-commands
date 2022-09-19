@@ -1,1 +1,1 @@
-!editcom !% $(eval Math.random() * 100)% chance $(query)
+!editcom -cd=5 !% $(eval a=decodeURIComponent("$(querystring)").split(" "); (a.includes("nice") ? "69" : Math.random() * 100); )% chance $(query)
